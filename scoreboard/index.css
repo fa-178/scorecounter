@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+
+     
+}
+
+@font-face {
+        src: url(timer.ttf);
+        font-family: timer;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start ; 
+    border: solid;
+    width: 575px; 
+    height: 385px;
+    margin : 0 auto;
+    background: #1B244A;
+
+}
+
+
+
+
+.score {
+    border: solid #080001; 
+    border-radius: 5px; 
+    width: 155px;
+    height: 120px;
+    margin-bottom: 26px;
+    font-family: timer;
+    font-size: 90px;
+    font-weight: 400;
+line-height: 127px;
+background: #080001;
+color: #F94F6D;
+padding: 0px; 
+
+
+}
+
+
+
+.title {
+    border: solid #1B244A; 
+    width: 149px;
+    height: 36px; 
+    margin-top: 81px;
+    margin-bottom: 21px;
+    font-family: 'timer';
+    color: #EEEEEE;
+    font-size : 40px
+    
+}
+
+button {
+    font-family: timer;
+    background: #1B244A;
+    color:#9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px; 
+
+}
